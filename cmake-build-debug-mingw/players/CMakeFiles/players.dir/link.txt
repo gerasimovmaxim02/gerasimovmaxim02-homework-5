@@ -1,0 +1,2 @@
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\ar.exe qc libplayers.a CMakeFiles/players.dir/human-player.cpp.obj CMakeFiles/players.dir/simple-ai-player.cpp.obj
+C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\ranlib.exe libplayers.a

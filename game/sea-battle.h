@@ -1,6 +1,7 @@
 #pragma once
 
 #include <memory>
+#include <algorithm>
 
 #include "game/field.h"
 #include "players/player-interface.h"
@@ -20,4 +21,9 @@ public:
   static std::string get_player_name(turn_t turn);
 
 private:
+  std::shared_ptr<player_interface_t> _player_1;
+  field_t _field_1;
+  std::shared_ptr<player_interface_t> _player_2;
+  field_t _field_2;
+  turn_t _current_turn = FIRST_PLAYER;
 };

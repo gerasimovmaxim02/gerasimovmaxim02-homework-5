@@ -1,0 +1,231 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "tests.exe"
+		},
+		{
+			"path" : "tests.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"cmake-build-debug-mingw/googletest-src/googletest/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 141,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -Wall -Wno-sign-compare -pedantic -g -Wall -Wno-sign-compare -pedantic -D_GLIBCXX_DEBUG"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/geras/CLionProjects/gerasimovmaxim02-homework-5/."
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/geras/CLionProjects/gerasimovmaxim02-homework-5/cmake-build-debug-mingw/googletest-src/googletest/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Users/geras/CLionProjects/gerasimovmaxim02-homework-5/cmake-build-debug-mingw/googletest-src/googletest"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				4,
+				5
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "gtest_main::@32fe1c6cd3a65a2fab56"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "gtest::@32fe1c6cd3a65a2fab56"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "players::@0ef0f33e9ac96562bf07"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "game::@0c53ff3c4131f9152fd3"
+		}
+	],
+	"id" : "tests::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wall -Wno-sign-compare -pedantic -g -Wall -Wno-sign-compare -pedantic -D_GLIBCXX_DEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\libgtest_maind.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "players\\libplayers.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "game\\libgame.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "lib\\libgtestd.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "tests",
+	"nameOnDisk" : "tests.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				4,
+				5
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "testing/mock-player.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "testing/mock-player-data.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testing/mock-player.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "testing/mock-player-data.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main-game.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main-human.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

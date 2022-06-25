@@ -1,0 +1,243 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "googletest-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-googletest-build-Debug-43c4d4ee2846c41bbeb6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug-mingw/googletest-src"
+				},
+				{
+					"build" : "googletest-build/googlemock",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-googletest-build.googlemock-Debug-ff0e5e4777572e005f11.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "cmake-build-debug-mingw/googletest-src/googlemock",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "googletest-build/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-googletest-build.googletest-Debug-f6112ec0cd57e51a7cb5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "cmake-build-debug-mingw/googletest-src/googletest",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "players",
+					"jsonFile" : "directory-players-Debug-80105324bb20ef033066.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "players",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "game",
+					"jsonFile" : "directory-game-Debug-b67dffe3df9019a6d767.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "game",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						4,
+						5
+					],
+					"name" : "sea-battle",
+					"targetIndexes" : 
+					[
+						0,
+						5,
+						6
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "game::@0c53ff3c4131f9152fd3",
+					"jsonFile" : "target-game-Debug-707624c19579f96320d4.json",
+					"name" : "game",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock::@645c719b6bb61ab77cfe",
+					"jsonFile" : "target-gmock-Debug-0a42f2307e155236ce1f.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock_main::@645c719b6bb61ab77cfe",
+					"jsonFile" : "target-gmock_main-Debug-efeeaf65d4edad6817c3.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest::@32fe1c6cd3a65a2fab56",
+					"jsonFile" : "target-gtest-Debug-959e76a70f35cdfb334c.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest_main::@32fe1c6cd3a65a2fab56",
+					"jsonFile" : "target-gtest_main-Debug-ced02825ad9c65735c9a.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "players::@0ef0f33e9ac96562bf07",
+					"jsonFile" : "target-players-Debug-9d98639bbe9bd2044724.json",
+					"name" : "players",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tests-Debug-5935ae33ce31282415c4.json",
+					"name" : "tests",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/geras/CLionProjects/gerasimovmaxim02-homework-5/cmake-build-debug-mingw",
+		"source" : "C:/Users/geras/CLionProjects/gerasimovmaxim02-homework-5"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
