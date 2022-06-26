@@ -1,6 +1,6 @@
 #To choose 'easy' version of homework you should remove '#' on the second line and remove the third line at all
-#set(RUN_MODE "easy")
-set(RUN_MODE "hard")
+set(RUN_MODE "easy")
+#set(RUN_MODE "hard")
 
 include_directories(.)
 
@@ -12,7 +12,8 @@ set(CMAKE_CXX_STANDARD 17)
 include(testing/CMakeLists.txt)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wno-sign-compare -pedantic")
-set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -Wall -Wno-sign-compare -pedantic -fsanitize=undefined,address,leak -fno-sanitize-recover=all -D_GLIBCXX_DEBUG")
+set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -Wall -Wno-sign-compare -pedantic -D_GLIBCXX_DEBUG")
+
 
 
 set(SOURCES testing/mock-player.cpp testing/mock-player-data.cpp)
